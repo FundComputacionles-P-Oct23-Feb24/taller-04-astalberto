@@ -1,0 +1,19 @@
+* Problema 3
+> Generar una solución que lea la temperatura en grados centı́grados (◦C) y la convierta a grados Farenheit (◦F) y a grados Kelvin (◦K), siempre y cuando la temperatura dada en grados centı́grados sea positiva y menor o igual que cien.
+    
+    Formulas de ayuda: 
+    * De grados Farenheit a grados centı́grados: ◦F = 9/5 (◦C ) + 32
+    * De grados Kelvin a grados centı́grados: ◦K = ◦ C + 273.15
+
+1.  Inicio
+2.  temp_C
+3.  temp_F
+4.  temp_K
+5.  << "Ingrese la temperatura en Celcius a transformar"
+6.  >> temp_C
+7.  Si temp_C <=100 and temp_C >=0
+8.  	temp_F <-- (9/5) *  temp_C  + 32
+9.  	temp_K <-- temp_C + 273.15
+10. Fin Si
+11. << "La temperatura en Farenheit es: "+temp_F+" \nLa temperatura en Kelvin es: "+temp_K
+12. Fin

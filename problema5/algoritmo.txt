@@ -1,0 +1,12 @@
+1.  Inicio
+2.  Pedir al usuario que ingrese por teclado la edad
+3.  Pedir al usuario que ingrese por teclado la cantidad de agua que consume durante un mes
+4.  Pedir al usuario que ingrese por teclado la el costo de litros de agua
+5.  Operar para conseguir el total a pagar de agua, para esto multiplicamos el costo de agua * la cantidad de agua que se consume durante un mes
+6.  Pedir al usuario que ingrese por teclado el numero de minutos que el usuario gasto durante el mes
+7.  Pedir al usuario que ingrese por teclado el costo de un minuto
+8.  Operar para conseguir el total a pagar de minutos, para eso multiplicamos el numero de minutos gastados * el costo de un minuto
+9.  Operar para conseguir el total a pagar de servicios, para eso sumamos el total a pagar de minutos con el total a pagar de agua
+10. Comprovamos si se cumple la condicion de que la edad del usuario tiene que ser menor que 20 años.
+11. Si se cumple la condicion tenemos que sacar el descuento del pago mensual, para eso realizamos la siguente operación : pagoMensual - (pagoMensual * 0.2)
+12. Se presenta en pantalla el total a pagar de servicios 

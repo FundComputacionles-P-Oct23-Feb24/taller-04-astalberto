@@ -1,0 +1,17 @@
+* Problema 2
+
+> Solución que imprima el costo de un pedido de un artículo del cual se tiene la descripción, la cantidad que se requiere y el precio unitario. Si la cantidad pedida excede de 50 unidades, se hace un descuento de 15%.
+1.  Inicio
+2.  descr_Ar, x(30)[(a-z),(A-Z),(BS)]
+3.  precUnitario_Ar, d[0-n]
+4.  cant_Ar,i[0-n]
+5.  costoTotal_Ar, d[0-n]
+6.  descr_Ar <-- "Manzana fresca y jugosa"
+7.  precUnitario_Ar <-- 0.50
+8.  cant_Ar <-- 250
+9.  costoTotal_Ar <-- precUnitario * cant_Ar 
+10. Si cant_Ar > 50 entonces
+11. 	costoTotal_Ar <-- costoTotal_Ar - (costoTotal_Ar * 0.15)
+12. Fin Si
+13. << descr_Ar + " Cantidad del Articulo: " + cant_Ar + " Precio Unitario: " + precUnitario_Ar + " Costo Total del Articulo: " + costoTotal_Ar 
+14. Fin
